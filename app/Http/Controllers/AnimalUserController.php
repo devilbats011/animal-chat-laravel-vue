@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
-use Faker\Factory as Faker;
+// use Faker\Factory as Faker;
 // use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Support\Facades\Auth;
 
@@ -45,16 +45,15 @@ class AnimalUserController extends Controller
     public function storeUser(Request $request)
     {
         //todo 1 . prevent if same name pop out <-- create another function
-        $faker = Faker::create();
+        // $faker = Faker::create();
         // $faker = Faker\Factory::create();
-
 
         if(Auth::user() == false)
         {
             $user = User::create([
                     'name' => $request->name,
                     'avatar' => $request->avatar,
-                    'email' => $faker->email,
+                    'email' => "gg@gg.com",
                     'password'=> bcrypt('password')
             ]);
 
