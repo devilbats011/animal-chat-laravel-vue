@@ -1,5 +1,6 @@
 <?php
 
+use App\Channel;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -12,12 +13,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 
-
-	        App\Channel::create([
+	        Channel::create([
 	            'id' => 1
 	        ]);
 
-	        App\Channel::create([
+	        Channel::create([
 	            'id' => 2	
 	        ]);
 

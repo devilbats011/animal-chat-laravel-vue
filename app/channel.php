@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use App\Message;
 
-class channel extends Model
+class Channel extends Model
 {
     
     // public function User()
