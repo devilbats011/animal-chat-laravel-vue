@@ -43,7 +43,7 @@ class AnimalUserController extends Controller
       *
       */
     function getRandomWord($len = 10) {
-        $word = array_merge(range('a', 'z'), range('A', 'Z'));
+        $word = array_merge(range('a', 'z'));
         shuffle($word);
         return substr(implode($word), 0, $len);
     }
@@ -54,16 +54,16 @@ class AnimalUserController extends Controller
         // $faker = Faker::create();
         // $faker = Faker\Factory::create();
 
-        $word = $this->getRandomWord();
-        $word2 = $this->getRandomWord();
-        
+        $word = $this->getRandomWord(5);
+        $word2 = $this->getRandomWord(5);
+
         if(Auth::user() == false)
         {
             $user = User::create([
-                    'name' => $request->name,
-                    'avatar' => $request->avatar,
-                    'email' => $word+"@"+$word2+"+.com",
-                    'password'=> bcrypt('password')
+                            'name' => $request->name,
+                            'avatar' => $request->avatar,
+                            'email' => $word."@".$word2.".com",
+                            'password'=> bcrypt('password')
             ]);
 
             if(Auth::attempt(['name' => $request->name, 'password' => 'password'])) {
