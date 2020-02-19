@@ -6,12 +6,15 @@
         <v-col style="float: left;">
 		 <v-row justify="space-around">
 
-        <router-link :to="'/t3/'+ index" v-for="(item,index) in this.$store.state.images" v-bind:key="index"  >
+        <router-link :to="'/t3/'+ index" v-for="(item,index) in this.$store.state.images" v-bind:key="index" v-if="!isClick"  >
 		    <v-avatar size="120px" class="cursor"  >
              <!-- v-on:click="chosenAvatar(index)" -->
 		      <v-img :src="item" alt="--"  />
 		    </v-avatar>
         </router-link>
+        <section v-if="isClick" >
+           <p> LOADING ... </p>
+        </section>
 
 <!-- 		    <v-avatar size="120px" class="cursor">
 		      <img  :src="'/img/chicken.jpg'" alt="ciken">
@@ -36,6 +39,7 @@
 	data () {
     return {
       name: 'fellow user',
+      isClick:false,
       // images:['/img/owl1.jpg','/img/chicken.jpg','/img/frog.jpg'],
       i:0
     }
@@ -44,6 +48,7 @@
 
   		chosenAvatar(index)
   		{
+        this.isClick=true;
   			// console.log(index);
   			//this.i = index;
         console.log(index);
@@ -62,13 +67,14 @@
 
   },
     beforeRouteLeave (to, from, next) {
-      
+      if(!this.isClick){
       let user = this.chosenAvatar(to.params.avatar)
       user.then((response)=>
         {
           console.log(" test02 :70 responses" ,response.data)
           next()
         })
+      }
       
   },
   created()

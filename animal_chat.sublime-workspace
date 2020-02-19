@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-right: 〔property〕"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"fo",
+				"font-size\tproperty"
+			],
+			[
+				"dis",
+				"displayImage"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"chi",
+				"child-channel"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
 				"com",
 				"commit"
 			],
@@ -22,10 +54,6 @@
 			[
 				"messag",
 				"messages"
-			],
-			[
-				"dis",
-				"display"
 			],
 			[
 				"respo",
@@ -50,10 +78,6 @@
 			[
 				"Vue",
 				"Vuetify"
-			],
-			[
-				"back",
-				"background-color\tproperty"
 			],
 			[
 				"de",
@@ -95,7 +119,7 @@
 			"file": "resources/js/components/ChatMessages.vue",
 			"settings":
 			{
-				"buffer_size": 569,
+				"buffer_size": 1617,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -104,7 +128,7 @@
 			"file": "resources/js/components/ChatMessages2.vue",
 			"settings":
 			{
-				"buffer_size": 749,
+				"buffer_size": 1677,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -113,7 +137,7 @@
 			"file": "resources/js/components/ChatForm.vue",
 			"settings":
 			{
-				"buffer_size": 1878,
+				"buffer_size": 1877,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -122,7 +146,7 @@
 			"file": "resources/js/components/ChatForm2.vue",
 			"settings":
 			{
-				"buffer_size": 1925,
+				"buffer_size": 1948,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -149,7 +173,7 @@
 			"file": "resources/js/components/ChooseYourAvatar.vue",
 			"settings":
 			{
-				"buffer_size": 2493,
+				"buffer_size": 2567,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -192,7 +216,7 @@
 			"file": "resources/js/components/test01.vue",
 			"settings":
 			{
-				"buffer_size": 2652,
+				"buffer_size": 2724,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -206,10 +230,26 @@
 			}
 		},
 		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 1577,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package-lock.json",
+			"settings":
+			{
+				"buffer_size": 455669,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "resources/js/components/test02.vue",
 			"settings":
 			{
-				"buffer_size": 1941,
+				"buffer_size": 2134,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -218,7 +258,7 @@
 			"file": "resources/js/components/test03.vue",
 			"settings":
 			{
-				"buffer_size": 3380,
+				"buffer_size": 4023,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -244,7 +284,7 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1001,
+				"buffer_size": 1030,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -269,7 +309,7 @@
 			"file": "resources/views/layouts/app.blade.php",
 			"settings":
 			{
-				"buffer_size": 1530,
+				"buffer_size": 1734,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -381,7 +421,8 @@
 			"file": "resources/views/welcome.blade.php",
 			"settings":
 			{
-				"buffer_size": 2953,
+				"buffer_size": 2954,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -406,7 +447,7 @@
 			"file": "resources/js/app.js",
 			"settings":
 			{
-				"buffer_size": 4636,
+				"buffer_size": 4846,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -604,7 +645,6 @@
 		"/D/Projects Files/AnimalsChat/app/Events",
 		"/D/Projects Files/AnimalsChat/app/Http",
 		"/D/Projects Files/AnimalsChat/app/Http/Controllers",
-		"/D/Projects Files/AnimalsChat/app/Http/Controllers/Auth",
 		"/D/Projects Files/AnimalsChat/bootstrap",
 		"/D/Projects Files/AnimalsChat/database",
 		"/D/Projects Files/AnimalsChat/database/factories",
@@ -615,6 +655,7 @@
 		"/D/Projects Files/AnimalsChat/resources",
 		"/D/Projects Files/AnimalsChat/resources/js",
 		"/D/Projects Files/AnimalsChat/resources/js/components",
+		"/D/Projects Files/AnimalsChat/resources/js/store",
 		"/D/Projects Files/AnimalsChat/resources/sass",
 		"/D/Projects Files/AnimalsChat/resources/views",
 		"/D/Projects Files/AnimalsChat/resources/views/auth",
@@ -738,7 +779,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -753,6 +794,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"3rem",
 			"import",
 			"85",
 			"your name ",
@@ -783,7 +825,7 @@
 	"groups":
 	[
 		{
-			"selected": 14,
+			"selected": 15,
 			"sheets":
 			[
 				{
@@ -792,15 +834,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 569,
+						"buffer_size": 1617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								299,
-								299
+								656,
+								583
 							]
 						],
 						"settings":
@@ -827,7 +869,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -836,15 +878,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 749,
+						"buffer_size": 1677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								749,
-								749
+								1674,
+								1674
 							]
 						],
 						"settings":
@@ -859,10 +901,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -871,15 +913,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1878,
+						"buffer_size": 1877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1529,
-								1529
+								479,
+								479
 							]
 						],
 						"settings":
@@ -897,10 +939,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 176.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -909,15 +951,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1925,
+						"buffer_size": 1948,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1117,
-								1117
+								1948,
+								1948
 							]
 						],
 						"settings":
@@ -935,10 +977,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 678.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -972,7 +1014,7 @@
 						"translation.y": 105.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
@@ -988,8 +1030,8 @@
 						"selection":
 						[
 							[
-								159,
-								149
+								129,
+								121
 							]
 						],
 						"settings":
@@ -1010,7 +1052,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -1019,15 +1061,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2493,
+						"buffer_size": 2567,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1889,
-								1889
+								2320,
+								2320
 							]
 						],
 						"settings":
@@ -1057,10 +1099,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 901.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1089,7 +1131,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 61,
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
@@ -1126,7 +1168,7 @@
 						"translation.y": 313.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
@@ -1160,7 +1202,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
@@ -1197,7 +1239,7 @@
 						"translation.y": 1824.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
@@ -1206,15 +1248,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2652,
+						"buffer_size": 2724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1464,
-								1464
+								2233,
+								2233
 							]
 						],
 						"settings":
@@ -1234,6 +1276,9 @@
 							"SL.24.region_keys":
 							[
 							],
+							"SL.25.region_keys":
+							[
+							],
 							"SL.44.region_keys":
 							[
 							],
@@ -1247,10 +1292,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 917.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
@@ -1266,8 +1311,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								30,
+								30
 							]
 						],
 						"settings":
@@ -1278,24 +1323,84 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 13,
-					"file": "resources/js/components/test02.vue",
+					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1941,
+						"buffer_size": 1577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								93,
-								93
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 178.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "package-lock.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 455669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "resources/js/components/test02.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1622,
+								1622
 							]
 						],
 						"settings":
@@ -1312,6 +1417,9 @@
 							"SL.25.region_keys":
 							[
 							],
+							"SL.27.region_keys":
+							[
+							],
 							"SL.54.region_keys":
 							[
 							],
@@ -1322,27 +1430,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 453.0,
+						"translation.y": 519.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "resources/js/components/test03.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3380,
+						"buffer_size": 4023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								537,
-								537
+								475,
+								475
 							]
 						],
 						"settings":
@@ -1354,6 +1462,9 @@
 							[
 							],
 							"SL.26.region_keys":
+							[
+							],
+							"SL.28.region_keys":
 							[
 							],
 							"SL.40.region_keys":
@@ -1369,11 +1480,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
@@ -1400,11 +1511,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 60,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "app/Message.php",
 					"semi_transient": false,
 					"settings":
@@ -1432,16 +1543,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1001,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
@@ -1467,11 +1578,11 @@
 						"translation.y": 58.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 20,
 					"file": "vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
 					"semi_transient": false,
 					"settings":
@@ -1497,11 +1608,11 @@
 						"translation.y": 843.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 21,
 					"file": "vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
 					"semi_transient": false,
 					"settings":
@@ -1527,24 +1638,24 @@
 						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 22,
 					"file": "resources/views/layouts/app.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1530,
+						"buffer_size": 1734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1530,
-								1530
+								1426,
+								1426
 							]
 						],
 						"settings":
@@ -1567,20 +1678,23 @@
 							"SL.28.region_keys":
 							[
 							],
+							"SL.34.region_keys":
+							[
+							],
 							"auto_complete": false,
 							"syntax": "Packages/Vuejs Complete Package/vue.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 200.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 23,
 					"file": "public/mix-manifest.json",
 					"semi_transient": false,
 					"settings":
@@ -1605,11 +1719,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 24,
 					"file": "resources/views/layouts/app-nav-maynot-use.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1637,11 +1751,11 @@
 						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 25,
 					"file": "webpack.mix.js",
 					"semi_transient": false,
 					"settings":
@@ -1665,11 +1779,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 59,
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 26,
 					"file": "node_modules/laravel-mix/setup/webpack.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1693,11 +1807,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 58,
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 27,
 					"file": "node_modules/laravel-mix/src/builder/WebpackConfig.js",
 					"semi_transient": false,
 					"settings":
@@ -1723,11 +1837,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 57,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 28,
 					"file": "resources/sass/app.scss",
 					"semi_transient": false,
 					"settings":
@@ -1751,11 +1865,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 29,
 					"file": "app/Events/MessageSent.php",
 					"semi_transient": false,
 					"settings":
@@ -1785,11 +1899,11 @@
 						"translation.y": 170.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 30,
 					"file": "routes/channels.php",
 					"semi_transient": false,
 					"settings":
@@ -1817,11 +1931,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 31,
 					"file": "app/channel.php",
 					"semi_transient": false,
 					"settings":
@@ -1846,11 +1960,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 32,
 					"file": "database/migrations/2020_02_13_133444_create_channels_table.php",
 					"semi_transient": false,
 					"settings":
@@ -1880,11 +1994,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 33,
 					"file": "database/migrations/2020_02_06_090033_create_messages_table.php",
 					"semi_transient": false,
 					"settings":
@@ -1914,11 +2028,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 34,
 					"file": "vendor/laravel/framework/src/Illuminate/Auth/CreatesUserProviders.php",
 					"semi_transient": false,
 					"settings":
@@ -1944,28 +2058,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 35,
 					"file": "resources/views/welcome.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2953,
+						"buffer_size": 2954,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1152,
+								1152
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -1974,11 +2089,11 @@
 						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 36,
 					"file": "resources/views/Chat.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1990,8 +2105,8 @@
 						"selection":
 						[
 							[
-								514,
-								503
+								61,
+								61
 							]
 						],
 						"settings":
@@ -2012,11 +2127,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 37,
 					"file": "resources/views/auth/register.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -2042,24 +2157,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 38,
 					"file": "resources/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4636,
+						"buffer_size": 4846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3498,
-								3498
+								3904,
+								3904
 							]
 						],
 						"settings":
@@ -2082,20 +2197,23 @@
 							"SL.46.region_keys":
 							[
 							],
+							"SL.51.region_keys":
+							[
+							],
 							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1510.0,
+						"translation.y": 2198.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 39,
 					"file": "config/app.php",
 					"semi_transient": false,
 					"settings":
@@ -2122,11 +2240,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 40,
 					"file": "resources/js/routes.js",
 					"semi_transient": false,
 					"settings":
@@ -2169,11 +2287,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 41,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -2201,24 +2319,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1001,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								639,
-								639
+								668,
+								668
 							]
 						],
 						"settings":
@@ -2236,11 +2354,11 @@
 						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 42,
 					"file": "app/Http/Controllers/AnimalUserController.php",
 					"semi_transient": false,
 					"settings":
@@ -2267,11 +2385,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 43,
 					"file": "public/css/app.css",
 					"semi_transient": false,
 					"settings":
@@ -2297,11 +2415,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 58,
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 44,
 					"file": "public/css/emojipicker.css",
 					"semi_transient": false,
 					"settings":
@@ -2331,11 +2449,11 @@
 						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 56,
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 45,
 					"file": "config/broadcasting.php",
 					"semi_transient": false,
 					"settings":
@@ -2361,11 +2479,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 55,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 46,
 					"file": "vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php",
 					"semi_transient": false,
 					"settings":
@@ -2391,11 +2509,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 47,
 					"file": "vendor/laravel/framework/src/Illuminate/Notifications/Channels/BroadcastChannel.php",
 					"semi_transient": false,
 					"settings":
@@ -2421,11 +2539,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 54,
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 48,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2452,11 +2570,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 49,
 					"file": "app/Providers/BroadcastServiceProvider.php",
 					"semi_transient": false,
 					"settings":
@@ -2482,11 +2600,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 50,
 					"file": "config/database.php",
 					"semi_transient": false,
 					"settings":
@@ -2512,11 +2630,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 41,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
@@ -2544,11 +2662,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 48,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2575,11 +2693,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 51,
 					"file": "database/factories/UserFactory.php",
 					"semi_transient": false,
 					"settings":
@@ -2607,11 +2725,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 52,
 					"file": "app/User.php",
 					"semi_transient": false,
 					"settings":
@@ -2641,11 +2759,11 @@
 						"translation.y": 319.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 53,
 					"file": "node_modules/css-tree/lib/utils/createCustomError.js",
 					"semi_transient": false,
 					"settings":
@@ -2671,11 +2789,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 48,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2705,11 +2823,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 33,
 					"file": "database/migrations/2020_02_06_090033_create_messages_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2739,17 +2857,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 33,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 40,
+					"buffer": 42,
 					"file": "app/Http/Controllers/AnimalUserController.php",
 					"semi_transient": false,
 					"settings":
@@ -2761,8 +2879,8 @@
 						"selection":
 						[
 							[
-								2946,
-								2946
+								1111,
+								1111
 							]
 						],
 						"settings":
@@ -2775,27 +2893,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 766.0,
+						"translation.y": 595.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 19,
 					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1001,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								776,
-								761
+								550,
+								550
 							]
 						],
 						"settings":
@@ -2813,14 +2931,14 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 187.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 54,
 					"file": "app/Http/Controllers/ChatsController.php",
 					"semi_transient": false,
 					"settings":
@@ -2846,14 +2964,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 256.0,
+						"translation.y": 275.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 18,
 					"file": "app/Message.php",
 					"semi_transient": false,
 					"settings":
@@ -2881,7 +2999,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -2918,7 +3036,7 @@
 						"translation.y": 382.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 26,
 					"type": "text"
 				}
 			]
@@ -2926,7 +3044,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -2952,7 +3070,7 @@
 		"cols":
 		[
 			0.0,
-			0.597272727273,
+			0.561594847558,
 			1.0
 		],
 		"rows":
@@ -2974,7 +3092,7 @@
 	"project": "animal_chat.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2983,6 +3101,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"composer",
+				"composer.json"
+			],
 			[
 				"chat",
 				"app\\Http\\Controllers\\ChatsController.php"
@@ -3490,10 +3612,6 @@
 			[
 				"categoryCOn",
 				"app\\Http\\Controllers\\Category\\CategoryController.php"
-			],
-			[
-				"kernel",
-				"app\\Http\\Kernel.php"
 			]
 		],
 		"width": 0.0
@@ -3520,7 +3638,7 @@
 		],
 		"width": 592.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
@@ -3528,7 +3646,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 266.0,
+	"side_bar_width": 385.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

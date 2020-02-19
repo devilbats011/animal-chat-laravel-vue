@@ -1,6 +1,6 @@
 <template>
     <v-form >
-
+        <div v-if="!check">
         <v-text-field type="text" @keyup="setName" @keydown.enter.prevent
             dense
             label="Nickname"
@@ -9,7 +9,10 @@
         <p style="color:red">{{ error }}</p>
 
         <router-link :to="'/t2/'+ name" > Next </router-link>
-
+       </div>
+        <div v-if="check" >
+          <p style="font-size:1rem">Redirect ... </p>
+        </div>
     </v-form>
 </template>
 <script>
@@ -42,8 +45,8 @@ export default{
               {
 
                 this.$store.commit("setName",data.data[0].name);
-               this.$store.commit("setCheck",true);
-            
+                this.$store.commit("setCheck",true);
+                //this.check = true;
                 this.$store.commit("setAvatar",data.data[0].avatar);
 
                 console.log(this.$store.state.user,"44:")
@@ -51,39 +54,29 @@ export default{
                 
               }
                return data.status
-
+          })
+         .catch(error=>{
+           console.log(error,"/checking-user --> catch error")
+           this.check = false;
           })
     },
     setTest()
     {
       console.log("test");
     }
-    // checkAuth()
-    // {
-    //   return axios.get('/checking-user').then(response=>{
-    //            // this.checkAuth = response.data[0];
-    //             //console.log(this.checkAuth,"chechk auth");
-    //             return response.data[0];
-
-    //         })
-        
-    // }
   },
   beforeRouteEnter (to, from, next) {
         next((vm) =>{
+           vm.check = true;
            const status = vm.setSht()
             status.then((p)=>{
               console.log(p,"0p")
                 if(p == 200)
                 {
-
-                 vm.check = true;
                   next('/t3')
                 }
 
-               })
-
-            // console.log(status,"pppp")
+            })
           
 
         });
