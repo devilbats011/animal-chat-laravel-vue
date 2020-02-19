@@ -16,10 +16,11 @@ Auth::routes();
 
 // Route::get('/', 'ChatsController@index');
 Route::get('/', 'AnimalUserController@index');
-Route::redirect('/t3', '/');
-Route::redirect('/t3/{id}', '/');
+Route::redirect('/t1', '/');
 Route::redirect('/t2', '/');
 Route::redirect('/t2/{id}', '/');
+Route::redirect('/t3', '/');
+Route::redirect('/t3/{id}', '/');
 Route::resource('animal', 'AnimalUserController');
 Route::post('animal/user','AnimalUserController@storeUser');
 // Route::post('/checkmyuser','AnimalUserController@yyxxx');
