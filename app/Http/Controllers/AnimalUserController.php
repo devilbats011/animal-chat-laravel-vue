@@ -42,18 +42,27 @@ class AnimalUserController extends Controller
       * get It Name And Avatar
       *
       */
+    function getRandomWord($len = 10) {
+        $word = array_merge(range('a', 'z'), range('A', 'Z'));
+        shuffle($word);
+        return substr(implode($word), 0, $len);
+    }
+
     public function storeUser(Request $request)
     {
         //todo 1 . prevent if same name pop out <-- create another function
         // $faker = Faker::create();
         // $faker = Faker\Factory::create();
 
+        $word = $this->getRandomWord();
+        $word2 = $this->getRandomWord();
+        
         if(Auth::user() == false)
         {
             $user = User::create([
                     'name' => $request->name,
                     'avatar' => $request->avatar,
-                    'email' => "gg@gg.com",
+                    'email' => $word+"@"+$word2+"+.com",
                     'password'=> bcrypt('password')
             ]);
 
