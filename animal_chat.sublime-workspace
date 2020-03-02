@@ -216,7 +216,7 @@
 			"file": "resources/js/components/test01.vue",
 			"settings":
 			{
-				"buffer_size": 2724,
+				"buffer_size": 2674,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -225,7 +225,8 @@
 			"file": "resources/js/bootstrap.js",
 			"settings":
 			{
-				"buffer_size": 1224,
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -234,14 +235,14 @@
 			"settings":
 			{
 				"buffer_size": 1577,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package-lock.json",
+			"file": "node_modules/dotenv/lib/env-options.js",
 			"settings":
 			{
-				"buffer_size": 455669,
+				"buffer_size": 398,
 				"line_ending": "Unix"
 			}
 		},
@@ -260,6 +261,14 @@
 			{
 				"buffer_size": 4023,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "animal_chat.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
 				"line_ending": "Unix"
 			}
 		},
@@ -284,7 +293,7 @@
 			"file": "routes/web.php",
 			"settings":
 			{
-				"buffer_size": 1030,
+				"buffer_size": 1127,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -309,7 +318,7 @@
 			"file": "resources/views/layouts/app.blade.php",
 			"settings":
 			{
-				"buffer_size": 1734,
+				"buffer_size": 1731,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -374,6 +383,14 @@
 			}
 		},
 		{
+			"file": "app/Exceptions/Handler.php",
+			"settings":
+			{
+				"buffer_size": 1141,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "routes/channels.php",
 			"settings":
 			{
@@ -383,7 +400,7 @@
 			}
 		},
 		{
-			"file": "app/channel.php",
+			"file": "app/Channel.php",
 			"settings":
 			{
 				"buffer_size": 332,
@@ -456,7 +473,16 @@
 			"file": "config/app.php",
 			"settings":
 			{
-				"buffer_size": 9171,
+				"buffer_size": 9167,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 897,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -474,7 +500,7 @@
 			"file": "database/seeds/DatabaseSeeder.php",
 			"settings":
 			{
-				"buffer_size": 337,
+				"buffer_size": 345,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -483,7 +509,16 @@
 			"file": "app/Http/Controllers/AnimalUserController.php",
 			"settings":
 			{
-				"buffer_size": 4175,
+				"buffer_size": 4471,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/ChatsController.php",
+			"settings":
+			{
+				"buffer_size": 1115,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -551,7 +586,8 @@
 			"file": "config/database.php",
 			"settings":
 			{
-				"buffer_size": 5054,
+				"buffer_size": 5931,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -582,10 +618,35 @@
 			}
 		},
 		{
-			"file": "app/Http/Controllers/ChatsController.php",
+			"file": "vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
 			"settings":
 			{
-				"buffer_size": 1115,
+				"buffer_size": 1574,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/fzaninotto/faker/src/Faker/Provider/Internet.php",
+			"settings":
+			{
+				"buffer_size": 14840,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.lock",
+			"settings":
+			{
+				"buffer_size": 189370,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -643,6 +704,7 @@
 		"/D/Projects Files/AnimalsChat",
 		"/D/Projects Files/AnimalsChat/app",
 		"/D/Projects Files/AnimalsChat/app/Events",
+		"/D/Projects Files/AnimalsChat/app/Exceptions",
 		"/D/Projects Files/AnimalsChat/app/Http",
 		"/D/Projects Files/AnimalsChat/app/Http/Controllers",
 		"/D/Projects Files/AnimalsChat/bootstrap",
@@ -779,7 +841,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"find_in_files":
 	{
@@ -794,6 +856,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getKeyName",
 			"3rem",
 			"import",
 			"85",
@@ -825,7 +888,7 @@
 	"groups":
 	[
 		{
-			"selected": 15,
+			"selected": 30,
 			"sheets":
 			[
 				{
@@ -869,7 +932,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 46,
 					"type": "text"
 				},
 				{
@@ -885,8 +948,8 @@
 						"selection":
 						[
 							[
-								1674,
-								1674
+								1303,
+								1303
 							]
 						],
 						"settings":
@@ -901,10 +964,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
@@ -942,7 +1005,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 42,
 					"type": "text"
 				},
 				{
@@ -977,10 +1040,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 678.0,
+						"translation.y": 146.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 35,
 					"type": "text"
 				},
 				{
@@ -1014,7 +1077,7 @@
 						"translation.y": 105.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 50,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -1052,7 +1115,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 37,
 					"type": "text"
 				},
 				{
@@ -1102,7 +1165,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 41,
 					"type": "text"
 				},
 				{
@@ -1131,7 +1194,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 63,
+					"stack_index": 78,
 					"type": "text"
 				},
 				{
@@ -1168,7 +1231,7 @@
 						"translation.y": 313.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 52,
 					"type": "text"
 				},
 				{
@@ -1202,7 +1265,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 53,
+					"stack_index": 69,
 					"type": "text"
 				},
 				{
@@ -1239,7 +1302,7 @@
 						"translation.y": 1824.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 51,
 					"type": "text"
 				},
 				{
@@ -1248,15 +1311,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2724,
+						"buffer_size": 2674,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2233,
-								2233
+								947,
+								947
 							]
 						],
 						"settings":
@@ -1292,10 +1355,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 588.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 39,
 					"type": "text"
 				},
 				{
@@ -1304,26 +1367,30 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1224,
+						"buffer_size": 1234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								1095,
+								1095
 							]
 						],
 						"settings":
 						{
+							"SL.26.region_keys":
+							[
+							],
+							"auto_complete": false,
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1339,30 +1406,31 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								749,
+								749
 							]
 						],
 						"settings":
 						{
+							"auto_complete": true,
 							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 178.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
 					"buffer": 14,
-					"file": "package-lock.json",
-					"semi_transient": true,
+					"file": "node_modules/dotenv/lib/env-options.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 455669,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
@@ -1375,15 +1443,13 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -1430,10 +1496,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 519.0,
+						"translation.y": 268.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 38,
 					"type": "text"
 				},
 				{
@@ -1449,8 +1515,8 @@
 						"selection":
 						[
 							[
-								475,
-								475
+								2573,
+								2566
 							]
 						],
 						"settings":
@@ -1477,14 +1543,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 19938.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 17,
+					"file": "animal_chat.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
@@ -1511,11 +1605,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "app/Message.php",
 					"semi_transient": false,
 					"settings":
@@ -1543,16 +1637,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 36,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 1127,
 						"regions":
 						{
 						},
@@ -1578,11 +1672,11 @@
 						"translation.y": 58.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 49,
+					"stack_index": 66,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
 					"semi_transient": false,
 					"settings":
@@ -1608,11 +1702,11 @@
 						"translation.y": 843.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 51,
+					"stack_index": 67,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
 					"semi_transient": false,
 					"settings":
@@ -1638,24 +1732,24 @@
 						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 52,
+					"stack_index": 68,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "resources/views/layouts/app.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1734,
+						"buffer_size": 1731,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1426,
-								1426
+								747,
+								751
 							]
 						],
 						"settings":
@@ -1687,14 +1781,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 200.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 36,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "public/mix-manifest.json",
 					"semi_transient": false,
 					"settings":
@@ -1719,11 +1813,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 50,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "resources/views/layouts/app-nav-maynot-use.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1751,11 +1845,11 @@
 						"translation.y": 156.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 40,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "webpack.mix.js",
 					"semi_transient": false,
 					"settings":
@@ -1779,11 +1873,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 62,
+					"stack_index": 77,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "node_modules/laravel-mix/setup/webpack.config.js",
 					"semi_transient": false,
 					"settings":
@@ -1807,11 +1901,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 61,
+					"stack_index": 76,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "node_modules/laravel-mix/src/builder/WebpackConfig.js",
 					"semi_transient": false,
 					"settings":
@@ -1837,11 +1931,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 60,
+					"stack_index": 75,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "resources/sass/app.scss",
 					"semi_transient": false,
 					"settings":
@@ -1865,11 +1959,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 34,
+					"stack_index": 56,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "app/Events/MessageSent.php",
 					"semi_transient": false,
 					"settings":
@@ -1881,8 +1975,8 @@
 						"selection":
 						[
 							[
-								30,
-								30
+								1087,
+								1087
 							]
 						],
 						"settings":
@@ -1896,14 +1990,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 170.0,
+						"translation.y": 319.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 54,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
+					"file": "app/Exceptions/Handler.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
 					"file": "routes/channels.php",
 					"semi_transient": false,
 					"settings":
@@ -1931,12 +2055,12 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 47,
 					"type": "text"
 				},
 				{
-					"buffer": 31,
-					"file": "app/channel.php",
+					"buffer": 33,
+					"file": "app/Channel.php",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1960,11 +2084,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 39,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 34,
 					"file": "database/migrations/2020_02_13_133444_create_channels_table.php",
 					"semi_transient": false,
 					"settings":
@@ -1994,11 +2118,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 40,
+					"stack_index": 59,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 35,
 					"file": "database/migrations/2020_02_06_090033_create_messages_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2028,11 +2152,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 42,
+					"stack_index": 60,
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 36,
 					"file": "vendor/laravel/framework/src/Illuminate/Auth/CreatesUserProviders.php",
 					"semi_transient": false,
 					"settings":
@@ -2058,11 +2182,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 43,
+					"stack_index": 61,
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 37,
 					"file": "resources/views/welcome.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -2089,11 +2213,11 @@
 						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 45,
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 38,
 					"file": "resources/views/Chat.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -2127,11 +2251,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 43,
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 39,
 					"file": "resources/views/auth/register.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -2157,11 +2281,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 44,
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 40,
 					"file": "resources/js/app.js",
 					"semi_transient": false,
 					"settings":
@@ -2206,27 +2330,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2198.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 41,
 					"file": "config/app.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9171,
+						"buffer_size": 9167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6442,
-								6442
+								472,
+								480
 							]
 						],
 						"settings":
@@ -2237,14 +2361,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2204.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 42,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 137.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
 					"file": "resources/js/routes.js",
 					"semi_transient": false,
 					"settings":
@@ -2287,29 +2439,32 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 49,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 44,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 337,
+						"buffer_size": 345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								337,
-								337
+								345,
+								345
 							]
 						],
 						"settings":
 						{
 							"SL.214.region_keys":
+							[
+							],
+							"SL.55.region_keys":
 							[
 							],
 							"auto_complete": false,
@@ -2319,24 +2474,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 37,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "routes/web.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 1127,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								668,
-								668
+								765,
+								765
 							]
 						],
 						"settings":
@@ -2354,16 +2509,16 @@
 						"translation.y": 102.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 53,
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 45,
 					"file": "app/Http/Controllers/AnimalUserController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4175,
+						"buffer_size": 4471,
 						"regions":
 						{
 						},
@@ -2382,14 +2537,47 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 46,
+					"file": "app/Http/Controllers/ChatsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.155.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
 					"file": "public/css/app.css",
 					"semi_transient": false,
 					"settings":
@@ -2415,11 +2603,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 58,
+					"stack_index": 73,
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 48,
 					"file": "public/css/emojipicker.css",
 					"semi_transient": false,
 					"settings":
@@ -2449,11 +2637,11 @@
 						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 59,
+					"stack_index": 74,
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 49,
 					"file": "config/broadcasting.php",
 					"semi_transient": false,
 					"settings":
@@ -2479,11 +2667,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 55,
+					"stack_index": 70,
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 50,
 					"file": "vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php",
 					"semi_transient": false,
 					"settings":
@@ -2509,11 +2697,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 56,
+					"stack_index": 71,
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 51,
 					"file": "vendor/laravel/framework/src/Illuminate/Notifications/Channels/BroadcastChannel.php",
 					"semi_transient": false,
 					"settings":
@@ -2539,11 +2727,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 57,
+					"stack_index": 72,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 52,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2570,11 +2758,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 35,
+					"stack_index": 57,
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 53,
 					"file": "app/Providers/BroadcastServiceProvider.php",
 					"semi_transient": false,
 					"settings":
@@ -2600,54 +2788,58 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 46,
+					"stack_index": 64,
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 54,
 					"file": "config/database.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5054,
+						"buffer_size": 5931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1532,
+								1532
 							]
 						],
 						"settings":
 						{
+							"SL.65.region_keys":
+							[
+							],
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 593.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 47,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 44,
 					"file": "database/seeds/DatabaseSeeder.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 337,
+						"buffer_size": 345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								316,
-								316
+								324,
+								324
 							]
 						],
 						"settings":
@@ -2662,11 +2854,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 38,
+					"stack_index": 58,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 52,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2693,11 +2885,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 45,
+					"stack_index": 63,
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 55,
 					"file": "database/factories/UserFactory.php",
 					"semi_transient": false,
 					"settings":
@@ -2709,13 +2901,16 @@
 						"selection":
 						[
 							[
-								1056,
-								923
+								155,
+								155
 							]
 						],
 						"settings":
 						{
 							"SL.215.region_keys":
+							[
+							],
+							"SL.68.region_keys":
 							[
 							],
 							"auto_complete": false,
@@ -2725,11 +2920,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 41,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 56,
 					"file": "app/User.php",
 					"semi_transient": false,
 					"settings":
@@ -2759,11 +2954,11 @@
 						"translation.y": 319.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 44,
+					"stack_index": 62,
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 57,
 					"file": "node_modules/css-tree/lib/utils/createCustomError.js",
 					"semi_transient": false,
 					"settings":
@@ -2789,11 +2984,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 48,
+					"stack_index": 65,
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 52,
 					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2823,11 +3018,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 54,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 35,
 					"file": "database/migrations/2020_02_06_090033_create_messages_table.php",
 					"semi_transient": false,
 					"settings":
@@ -2857,30 +3052,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 55,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 11,
 			"sheets":
 			[
 				{
-					"buffer": 42,
+					"buffer": 45,
 					"file": "app/Http/Controllers/AnimalUserController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4175,
+						"buffer_size": 4471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1111,
-								1111
+								727,
+								727
 							]
 						],
 						"settings":
@@ -2893,27 +3088,373 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 595.0,
+						"translation.y": 149.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
-					"file": "routes/web.php",
+					"buffer": 52,
+					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1030,
+						"buffer_size": 893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								550,
-								550
+								543,
+								543
+							]
+						],
+						"settings":
+						{
+							"SL.185.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 56,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"SL.185.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": "vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								897,
+								913
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 59,
+					"file": "vendor/fzaninotto/faker/src/Faker/Provider/Internet.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3106,
+								3106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1219.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 60,
+					"file": "vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"SL.149.region_keys":
+							[
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "app/Events/MessageSent.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"SL.119.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 61,
+					"file": "composer.lock",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 189370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								634,
+								634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1443,
+								1443
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 421.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
+					"file": "config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1532,
+								1532
+							]
+						],
+						"settings":
+						{
+							"SL.161.region_keys":
+							[
+							],
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 501.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1071,
+								1065
 							]
 						],
 						"settings":
@@ -2924,6 +3465,9 @@
 							"SL.27.region_keys":
 							[
 							],
+							"SL.74.region_keys":
+							[
+							],
 							"SL.82.region_keys":
 							[
 							],
@@ -2931,14 +3475,14 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 187.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 46,
 					"file": "app/Http/Controllers/ChatsController.php",
 					"semi_transient": false,
 					"settings":
@@ -2967,11 +3511,11 @@
 						"translation.y": 275.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 48,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "app/Message.php",
 					"semi_transient": false,
 					"settings":
@@ -2999,7 +3543,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -3015,8 +3559,8 @@
 						"selection":
 						[
 							[
-								1501,
-								1501
+								1364,
+								1329
 							]
 						],
 						"settings":
@@ -3033,10 +3577,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 382.0,
+						"translation.y": 251.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 21,
 					"type": "text"
 				}
 			]
@@ -3044,7 +3588,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -3070,7 +3614,7 @@
 		"cols":
 		[
 			0.0,
-			0.561594847558,
+			0.434389989642,
 			1.0
 		],
 		"rows":
@@ -3092,7 +3636,7 @@
 	"project": "animal_chat.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 40.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -3102,16 +3646,100 @@
 		"selected_items":
 		[
 			[
-				"composer",
-				"composer.json"
+				"config/da",
+				"config\\database.php"
 			],
 			[
-				"chat",
+				"config/app",
+				"config\\app.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"messageSen",
+				"app\\Events\\MessageSent.php"
+			],
+			[
+				"chatcon",
 				"app\\Http\\Controllers\\ChatsController.php"
 			],
 			[
 				"animal",
 				"app\\Http\\Controllers\\AnimalUserController.php"
+			],
+			[
+				"animacha",
+				"animal_chat.sublime-project"
+			],
+			[
+				"boots",
+				"resources\\js\\bootstrap.js"
+			],
+			[
+				"app.js",
+				"resources\\js\\app.js"
+			],
+			[
+				"config dat",
+				"config\\database.php"
+			],
+			[
+				"config data",
+				"config\\database.php"
+			],
+			[
+				"config/a",
+				"config\\app.php"
+			],
+			[
+				"env",
+				"node_modules\\dotenv\\lib\\env-options.js"
+			],
+			[
+				"animaco",
+				"app\\Http\\Controllers\\AnimalUserController.php"
+			],
+			[
+				"loginc",
+				"app\\Http\\Controllers\\Auth\\LoginController.php"
+			],
+			[
+				"user",
+				"app\\User.php"
+			],
+			[
+				"user crea",
+				"database\\migrations\\2014_10_12_000000_create_users_table.php"
+			],
+			[
+				"userch",
+				"app\\Http\\Controllers\\AnimalUserController.php"
+			],
+			[
+				"",
+				"app\\Http\\Controllers\\AnimalUserController.php"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"config databs",
+				"config\\database.php"
+			],
+			[
+				"data",
+				"database\\seeds\\DatabaseSeeder.php"
+			],
+			[
+				"chat",
+				"app\\Http\\Controllers\\ChatsController.php"
 			],
 			[
 				"messa",
@@ -3130,20 +3758,12 @@
 				"app\\Http\\Controllers\\ChatsController.php"
 			],
 			[
-				"app.js",
-				"resources\\js\\app.js"
-			],
-			[
 				"loginco",
 				"app\\Http\\Controllers\\Auth\\LoginController.php"
 			],
 			[
 				"logincon",
 				"app\\Http\\Controllers\\Auth\\LoginController.php"
-			],
-			[
-				"web",
-				"routes\\web.php"
 			],
 			[
 				"anima",
@@ -3190,14 +3810,6 @@
 				"database\\migrations\\2014_10_12_000000_create_users_table.php"
 			],
 			[
-				"user crea",
-				"database\\migrations\\2014_10_12_000000_create_users_table.php"
-			],
-			[
-				"user",
-				"app\\User.php"
-			],
-			[
 				"test03",
 				"resources\\js\\components\\test03.vue"
 			],
@@ -3228,10 +3840,6 @@
 			[
 				"channel crea",
 				"database\\migrations\\2020_02_13_133444_create_channels_table.php"
-			],
-			[
-				"",
-				"database\\factories\\UserFactory.php"
 			],
 			[
 				"seeder",
@@ -3346,10 +3954,6 @@
 				"node_modules\\argparse\\lib\\const.js"
 			],
 			[
-				"chatcon",
-				"app\\Http\\Controllers\\ChatsController.php"
-			],
-			[
 				"animalUser",
 				"app\\Http\\Controllers\\animalUserController.php"
 			],
@@ -3408,14 +4012,6 @@
 			[
 				"broad",
 				"config\\broadcasting.php"
-			],
-			[
-				"config/a",
-				"config\\app.php"
-			],
-			[
-				"boots",
-				"resources\\js\\bootstrap.js"
 			],
 			[
 				"channels",
@@ -3560,58 +4156,6 @@
 			[
 				"config/app.php",
 				"config\\app.php"
-			],
-			[
-				"config/services.php",
-				"config\\services.php"
-			],
-			[
-				"apico",
-				"app\\Http\\Controllers\\ApiController.php"
-			],
-			[
-				"apicontr",
-				"app\\Http\\Controllers\\ApiController.php"
-			],
-			[
-				"usercon",
-				"app\\Http\\Controllers\\User\\UserController.php"
-			],
-			[
-				"category",
-				"app\\Http\\Controllers\\Category\\CategoryController.php"
-			],
-			[
-				"apicon",
-				"app\\Http\\Controllers\\ApiController.php"
-			],
-			[
-				"apiResp",
-				"app\\Traits\\ApiResponser.php"
-			],
-			[
-				"kerne",
-				"app\\Http\\Kernel.php"
-			],
-			[
-				"catego",
-				"app\\Http\\Controllers\\Category\\CategoryController.php"
-			],
-			[
-				"userCOntr",
-				"app\\Http\\Controllers\\User\\UserController.php"
-			],
-			[
-				"transac",
-				"app\\Http\\Controllers\\Transaction\\TransactionController.php"
-			],
-			[
-				"tran",
-				"app\\Transaction.php"
-			],
-			[
-				"categoryCOn",
-				"app\\Http\\Controllers\\Category\\CategoryController.php"
 			]
 		],
 		"width": 0.0
@@ -3646,7 +4190,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 385.0,
+	"side_bar_width": 319.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
